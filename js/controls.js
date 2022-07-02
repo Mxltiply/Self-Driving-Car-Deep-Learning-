@@ -9,7 +9,7 @@ class Controls {
     }
 
     #addKeyboardListeners() {
-        document.onkeydown = (event) => { // setting up,down,left,right to true depending on keyPress
+        document.onkeydown = (event) => { // setting up, down, left, right to true depending on keyPress
             switch(event.key) {
                 case "ArrowLeft":
                     this.left = true
